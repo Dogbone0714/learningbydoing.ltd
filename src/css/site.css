@@ -42,7 +42,7 @@ html {
   }
 }
 @media screen and (max-width:600px){
-  .html(width:100%;)
+  .html(width:100%;text-align:center;)
 }
 
 
