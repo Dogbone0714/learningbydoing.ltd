@@ -37,7 +37,7 @@ html {
   position: relative;
 }
 @media (min-width: 400px) {
-  html {
+  content {
     font-size: 16px;
   }
 }
