@@ -41,6 +41,10 @@ html {
     font-size: 16px;
   }
 }
+@media screen and (max-width:600px){
+  .html(width:100%;)
+}
+
 
 .border-top {
   border-top: 1px solid #e5e5e5;
