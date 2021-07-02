@@ -1,0 +1,278 @@
+
+
+.word {
+    width: 100%;
+    /*height: 500px;*/
+    /*color: #CFCFCF;*/
+    color: #3E70BE;
+    opacity: 0.2;
+    font-family: BarlowSemiCondensed-Black;
+    letter-spacing: -13px;
+    line-height: 150px;
+    text-align: right;
+    padding-right: 55px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin: auto;
+    font-size: 9em;
+}
+@media(min-width: 576px) {
+    .word {
+        font-size: 9em;
+        line-height: 150px;
+    }
+}
+
+@media(min-width: 768px) {
+    .word {
+        font-size: 14em;
+        letter-spacing: -16px;
+        line-height:150px;
+    }
+}
+
+@media(min-width: 992px) {
+    .word {
+        font-size: 18em;
+        letter-spacing: -20px;
+        line-height: 200px;
+    }
+}
+/*@media(max-width: 992px) {
+    .word {
+        font-size: 20em;
+    }
+}
+@media(max-width: 768px) {
+    .word {
+        font-size: 16em;
+    }
+}
+@media(max-width: 576px) {
+    .word {
+        font-size: 13em;
+    }
+}
+*/
+.icon {
+  width: 90%;
+  height: auto;
+  /*position: fixed;*/
+  top: 1em;
+  display:flex;
+  margin:0 auto;
+}
+
+
+.content {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.content .introduction, .content .service {
+  padding: 5em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight:bold;
+    line-height: 45px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    text-align: center;
+    border-radius: 10px;
+    background: #3377FF;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+p {
+  width: auto;
+  height: auto;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+.icon_chip {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon_chip .icon_box {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition-duration: 0.8s;
+}
+.icon_chip .icon_word {
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.icon_chip:hover .icon_box {
+  background-color: #BDFAFD;
+  border-radius: 100%;
+}
+
+#pic1 {
+  cursor: pointer;
+  stroke: #05286E;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  fill: white;
+}
+#pic1 .frame_outer, #pic1 .frame_inner {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+#pic1 .cross {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+}
+#pic1:hover {
+  stroke: #3377FF;
+}
+#pic1:hover .frame_outer, #pic1:hover .frame_inner {
+  transform: scale(1.5);
+}
+#pic1:hover .cross {
+  transform: rotate(180deg);
+  stroke-width: 4px;
+}
+
+#pic2 {
+  cursor: pointer;
+  stroke: #05286E;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  fill: white;
+}
+#pic2 .computer {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+#pic2 .info {
+  transform: scale(0);
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+  opacity: 0;
+}
+#pic2:hover {
+  stroke: #3377FF;
+}
+#pic2:hover .computer {
+  transform: scale(1.2);
+}
+#pic2:hover .info {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+#pic3 {
+  cursor:pointer;
+  stroke: #05286E;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: white;
+}
+#pic3 .hat {
+  transform: scale(0.8);
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+  opacity: 0;
+}
+#pic3 .game {
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+#pic3:hover {
+  stroke: #3377FF;
+}
+#pic3:hover .hat {
+  transform: scale(1);
+  opacity: 1;
+}
+#pic3:hover .game {
+  opacity: 0;
+}
+
+.service {
+  background: #3E70BE;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -10px;
+  font-size:1.5em;
+}
+
+p.p {
+  text-align: center;
+  color: #fff;
+}
+
+h4 {
+    cursor: pointer;
+    /*position: absolute;*/
+    right: 20px;
+    bottom: 30px;
+    font-size:1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+/*h4:hover {
+  border-bottom: solid 1px;
+}
+*/
+.service_block {
+    width: 250px;
+    /*height: 400px;*/
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    /*margin: 2em;*/
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic{
+    width:80%;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    padding:3px;
+}
+
+.service_img {
+    margin: auto;
+    width: 80%;
+}
+@media(max-width: 992px) {
+    .service_img {
+        width: 70%;
+    }
+}
+
+@media(max-width: 768px) {
+    .service_img {
+        width: 60%;
+    }
+}
+
+@media(max-width: 576px) {
+    .service_img {
+        width:50%;
+    }
+}
