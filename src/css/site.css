@@ -36,12 +36,12 @@ html {
   min-height: 100%;
   position: relative;
 }
-@media (min-width: 768px) {
+@media (min-width: 400px) {
   html {
     font-size: 16px;
   }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
   .html(width:100%;text-align:center;)
 }
 
