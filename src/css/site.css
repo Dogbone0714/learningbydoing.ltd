@@ -81,9 +81,19 @@ body {
 /*Custom CSS*/
 html, body {
     padding: 0px;
-    margin: 60px;
+    margin:  0px;
+    height: 100%;
     /*background: #05286E;*/
 }
+.wrapper {
+  min-height: 100%;
+  margin-bottom:-50px;
+
+}
+.fixedfooter {
+  height: 50px;
+}
+
 
 
 * {
@@ -109,4 +119,31 @@ html, body {
     color: white !important;
 }
 
-
+.footer{
+   background-color: #333;
+   height: 100px;
+   margin-top: 15px;
+   padding: 10px;
+   position:absolute;
+   left:0;
+   right: 0;
+   bottom:0;
+   height: 100px;
+   white-space: nowrap;
+}
+  .footer-text{
+    float: left;
+    font-size: $font-m;
+    color: white;
+    line-height: 70px;
+    //針對 footer-text 的文字做設定，讓它 footer 的左邊
+  }
+  
+.clearfix{
+      clear:both;
+  }
+.container{
+      width: 1024px;
+      margin: 0 auto;
+      
+  }
