@@ -1,6 +1,6 @@
 
   .footer{
-   background-color: white;
+   background-color: black;
    height: 100px;
    margin-top: 15px;
    padding: 10px;
@@ -12,8 +12,8 @@
 }
   .footer-text{
     float: center;
-    font-size: $font-m;
     color:white;
+    font-size: $font-m;
     line-height: 70px;
   
   .container{
