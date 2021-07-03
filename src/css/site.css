@@ -77,10 +77,17 @@ body {
 
 /*Custom CSS*/
 html, body {
+    height:   100%;
     padding: 0px;
     margin: 60px;
     /*background: #05286E;*/
 }
+
+.wrap{
+  min-height:   100%;
+}
+
+
 
 
 * {
