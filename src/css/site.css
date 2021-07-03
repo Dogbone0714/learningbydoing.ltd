@@ -87,11 +87,11 @@ html, body {
 }
 .wrapper {
   min-height: 100%;
-  margin-bottom:20px;
+  margin-bottom:-50px;
 
 }
 .fixedfooter {
-  height: 50px;
+  height: 20px;
 }
 
 
