@@ -120,7 +120,7 @@ html, body {
 }
 
 .footer{
-   background-color: gray;
+   background-color: #333;
    height: 100px;
    margin-top: 15px;
    padding: 10px;
@@ -134,7 +134,7 @@ html, body {
   .footer-text{
     float: left;
     font-size: $font-m;
-    color: gray;
+    color: white;
     line-height: 70px;
     //針對 footer-text 的文字做設定，讓它 footer 的左邊
   }
