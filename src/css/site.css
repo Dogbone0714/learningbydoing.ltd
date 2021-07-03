@@ -66,8 +66,18 @@ html, body {
     margin: 60px;
     /*background: #05286E;*/
 }
-
-
+.navbar_text {
+      color: white !important;
+      text-align: center;
+  }
+.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    position: relative;
+    float: center;
+    display: inline-block;
+  }
 * {
     font-family: 微軟正黑體;
     letter-spacing: 1px;
@@ -90,10 +100,7 @@ html, body {
       z-index: 1000;
   }
 
-  .navbar_text {
-      color: white !important;
-      text-align: center;
-  }
+  
 
   .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
@@ -101,14 +108,7 @@ html, body {
     border-color: #1861ac;
   }
 
-  .navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
-    position: relative;
-    float: center;
-    display: inline-block;
-  }
+  
    html {
     font-size: 12px;
   }
