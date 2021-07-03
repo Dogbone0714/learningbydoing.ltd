@@ -106,6 +106,6 @@ html, body {
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 200px){
   .content(width:100;)
 }
