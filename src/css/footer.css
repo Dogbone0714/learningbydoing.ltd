@@ -9,9 +9,16 @@
       
   }
 
+  .footer-text{
+    float: center;
+    font-size: 14px;
+    color: white;
+    line-height: 70px;
+  }
+
 
  .footer{
-   background-color: black;
+   background-color:black;
    height: 100px;
    margin-top: 15px;
    padding: 10px;
@@ -21,9 +28,3 @@
    bottom:100;
    height: 100px;
   
-  .footer-text{
-    float: center;
-    font-size: 14px;
-    color: white;
-    line-height: 70px;
-  }
