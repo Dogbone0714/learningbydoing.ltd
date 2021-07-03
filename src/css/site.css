@@ -121,8 +121,8 @@ html, body {
 
 .footer{
    background-color: black;
-   height: 80px;
-   margin-top: 0px;
+   height: 100px;
+   margin-top: 20px;
    padding: 10px;
    position:absolute;
 
@@ -133,6 +133,7 @@ html, body {
 }
   .footer-text{
     float: center;
+    align-content: center
     font-size: $font-m;
     color: white;
     line-height: 70px;
