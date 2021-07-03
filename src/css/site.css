@@ -75,7 +75,7 @@ html, body {
     position: relative;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
   .content{width:100;text-align: center;}
 
   .nav_area {
@@ -101,7 +101,7 @@ html, body {
     border-color: #1861ac;
   }
 
-  a.navbar-brand {
+  .navbar-brand {
     white-space: normal;
     text-align: center;
     word-break: break-all;
