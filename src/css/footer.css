@@ -13,10 +13,10 @@
   .footer-text{
     float: center;
     font-size: $font-m;
-    color:#ffffff;
+    color:white;
     line-height: 70px;
   
-.container{
+  .container{
       width: 1024px;
       margin: 0 auto;
       
