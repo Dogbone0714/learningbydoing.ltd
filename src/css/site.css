@@ -109,4 +109,7 @@ html, body {
     float: center;
     display: inline-block;
   }
+   html {
+    font-size: 12px;
+  
 }
