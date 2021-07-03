@@ -36,15 +36,11 @@ html {
   min-height: 100%;
   position: relative;
 }
-@media (min-width: 400px) {
-  content {
+@media (min-width: 768px) {
+  html {
     font-size: 16px;
   }
 }
-@media screen and (max-width:600px){
-  .html(width:100%;text-align:center;)
-}
-
 
 .border-top {
   border-top: 1px solid #e5e5e5;
@@ -81,19 +77,9 @@ body {
 /*Custom CSS*/
 html, body {
     padding: 0px;
-    margin:  0px;
-    height: 100%;
+    margin: 60px;
     /*background: #05286E;*/
 }
-.wrapper {
-  min-height: 100%;
-  margin-bottom:-150px;
-
-}
-.fixedfooter {
-  height: 50px;
-}
-
 
 
 * {
@@ -119,32 +105,4 @@ html, body {
     color: white !important;
 }
 
-.footer{
-   background-color: black;
-   height: 100px;
-   margin-top: 20px;
-   padding: 10px;
-   position:absolute;
 
-   left:0;
-   right: 0;
-   bottom:0;
-   white-space: nowrap;
-}
-  .footer-text{
-    float: center;
-    align-content: center;
-    font-size: $font-m;
-    color: white;
-    line-height: 70px;
-    //針對 footer-text 的文字做設定，讓它 footer 的左邊
-  }
-  
-.clearfix{
-      clear:both;
-  }
-.container{
-      width: 1024px;
-      margin: 0 auto;
-      
-  }
