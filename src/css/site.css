@@ -133,7 +133,7 @@ html, body {
 }
   .footer-text{
     float: center;
-    align-content: center
+    align-content: center;
     font-size: $font-m;
     color: white;
     line-height: 70px;
