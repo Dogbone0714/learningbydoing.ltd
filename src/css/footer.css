@@ -8,7 +8,6 @@
    right: 0;
    bottom:100;
    height: 100px;
-   white-space: nowrap;
 }
   .footer-text{
     float: center;
@@ -16,10 +15,10 @@
     color: white;
     line-height: 70px;
   
-.clearfix{
+  .clearfix{
       clear:both;
   }
-.container{
+  .container{
       width: 1024px;
       margin: 0 auto;
       
