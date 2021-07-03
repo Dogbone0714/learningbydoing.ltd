@@ -15,8 +15,6 @@
     font-size: $font-m;
     color: white;
     line-height: 70px;
-    //針對 footer-text 的文字做設定，讓它 footer 的左邊
-  }
   
 .clearfix{
       clear:both;

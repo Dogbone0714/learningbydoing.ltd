@@ -6,7 +6,7 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
   position: relative;
-  float: none;
+  float: center;
   display: inline-block;
 }
 
