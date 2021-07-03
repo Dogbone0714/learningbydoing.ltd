@@ -120,15 +120,14 @@ html, body {
 }
 
 .footer{
-   background-color: #333;
-   height: 50px;
-   margin-top: 15px;
+   background-color: gray;
+   height: 100px;
+   margin-top: 10px;
    padding: 10px;
    position:absolute;
    left:0;
    right: 0;
    bottom:0;
-   height: 100px;
    white-space: nowrap;
 }
   .footer-text{
