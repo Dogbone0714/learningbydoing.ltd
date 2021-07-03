@@ -11,7 +11,7 @@
    white-space: nowrap;
 }
   .footer-text{
-    float: left;
+    float: center;
     font-size: $font-m;
     color: white;
     line-height: 70px;
