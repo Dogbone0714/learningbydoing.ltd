@@ -6,16 +6,7 @@
     color: white;
     line-height: 70px;
   }
-  .footer{
-   background-color: black;
-   height: 100px;
-   margin-top: 15px;
-   padding: 10px;
-   position:absolute;
-   left:0;
-   right: 0;
-   bottom:100;
-   height: 100px;
+ 
 }
   .footer-text{
     float: center;
@@ -33,3 +24,13 @@
   }
 
 }
+ .footer{
+   background-color: black;
+   height: 100px;
+   margin-top: 15px;
+   padding: 10px;
+   position:absolute;
+   left:0;
+   right: 0;
+   bottom:100;
+   height: 100px;
