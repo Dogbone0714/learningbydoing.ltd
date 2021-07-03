@@ -2,12 +2,9 @@
 <<<<<<< HEAD
 =======
   @media screen and (max-width: 600px){
-  .footer-text{
-    float: center;
-    font-size: 12px;
-    color: white;
-    line-height: 70px;
+  
   }
+}
   .footer{
    background-color: black;
    height: 100px;
