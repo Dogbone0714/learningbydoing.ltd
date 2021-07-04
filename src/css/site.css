@@ -85,8 +85,8 @@ html, body {
     position: relative;
 }
 
-@media screen and (max-width: 550px){
-  .content{width:100;text-align: center;}
+@media screen and (max-width: 500px){
+  .content{width:auto;text-align: center;}
 
   .nav_area {
       width: 100%;
